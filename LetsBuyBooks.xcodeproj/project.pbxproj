@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CF674891843A3C30065E81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF674881843A3C30065E81F /* Foundation.framework */; };
+		2CF6748B1843A3C30065E81F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF6748A1843A3C30065E81F /* CoreGraphics.framework */; };
+		2CF6748D1843A3C30065E81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF6748C1843A3C30065E81F /* UIKit.framework */; };
+		2CF6748F1843A3C30065E81F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF6748E1843A3C30065E81F /* CoreData.framework */; };
+		2CF674951843A3C30065E81F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CF674931843A3C30065E81F /* InfoPlist.strings */; };
+		2CF674971843A3C30065E81F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674961843A3C30065E81F /* main.m */; };
+		2CF6749B1843A3C30065E81F /* LBBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6749A1843A3C30065E81F /* LBBAppDelegate.m */; };
+		2CF6749E1843A3C30065E81F /* LetsBuyBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6749C1843A3C30065E81F /* LetsBuyBooks.xcdatamodeld */; };
+		2CF674A01843A3C40065E81F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF6749F1843A3C40065E81F /* Images.xcassets */; };
+		2CF674A71843A3C40065E81F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF674A61843A3C40065E81F /* XCTest.framework */; };
+		2CF674A81843A3C40065E81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF674881843A3C30065E81F /* Foundation.framework */; };
+		2CF674A91843A3C40065E81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF6748C1843A3C30065E81F /* UIKit.framework */; };
+		2CF674AA1843A3C40065E81F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF6748E1843A3C30065E81F /* CoreData.framework */; };
+		2CF674B21843A3C40065E81F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CF674B01843A3C40065E81F /* InfoPlist.strings */; };
+		2CF674B41843A3C40065E81F /* LetsBuyBooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674B31843A3C40065E81F /* LetsBuyBooksTests.m */; };
+		2CF674BE1843A4730065E81F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF674BD1843A4730065E81F /* MainStoryboard_iPhone.storyboard */; };
+		2CF674C31843A5B40065E81F /* LBBOnSellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674C21843A5B30065E81F /* LBBOnSellingViewController.m */; };
+		2CF674C61843A5E70065E81F /* LBBChattingInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674C51843A5E70065E81F /* LBBChattingInfoViewController.m */; };
+		2CF674C91843A6240065E81F /* LBBAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674C81843A6240065E81F /* LBBAboutMeViewController.m */; };
+		2CF674CC1843AD020065E81F /* LBBMyDetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674CB1843AD020065E81F /* LBBMyDetailInfoViewController.m */; };
+		2CF674CF1843AD240065E81F /* LBBLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674CE1843AD240065E81F /* LBBLogInViewController.m */; };
+		2CF674D21843AD350065E81F /* LBBRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674D11843AD350065E81F /* LBBRegisterViewController.m */; };
+		2CF674D61843ADDD0065E81F /* LBBBookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674D51843ADDD0065E81F /* LBBBookListViewController.m */; };
+		2CF674D91843AF7B0065E81F /* LBBBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF674D81843AF7B0065E81F /* LBBBookDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CF674AB1843A3C40065E81F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF6747D1843A3C30065E81F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF674841843A3C30065E81F;
+			remoteInfo = LetsBuyBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CF674851843A3C30065E81F /* LetsBuyBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsBuyBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF674881843A3C30065E81F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CF6748A1843A3C30065E81F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CF6748C1843A3C30065E81F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CF6748E1843A3C30065E81F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CF674921843A3C30065E81F /* LetsBuyBooks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetsBuyBooks-Info.plist"; sourceTree = "<group>"; };
+		2CF674941843A3C30065E81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CF674961843A3C30065E81F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CF674981843A3C30065E81F /* LetsBuyBooks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetsBuyBooks-Prefix.pch"; sourceTree = "<group>"; };
+		2CF674991843A3C30065E81F /* LBBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBBAppDelegate.h; sourceTree = "<group>"; };
+		2CF6749A1843A3C30065E81F /* LBBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBBAppDelegate.m; sourceTree = "<group>"; };
+		2CF6749D1843A3C30065E81F /* LetsBuyBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LetsBuyBooks.xcdatamodel; sourceTree = "<group>"; };
+		2CF6749F1843A3C40065E81F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CF674A51843A3C40065E81F /* LetsBuyBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsBuyBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF674A61843A3C40065E81F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2CF674AF1843A3C40065E81F /* LetsBuyBooksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetsBuyBooksTests-Info.plist"; sourceTree = "<group>"; };
+		2CF674B11843A3C40065E81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CF674B31843A3C40065E81F /* LetsBuyBooksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetsBuyBooksTests.m; sourceTree = "<group>"; };
+		2CF674BD1843A4730065E81F /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2CF674C11843A5B30065E81F /* LBBOnSellingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBOnSellingViewController.h; sourceTree = "<group>"; };
+		2CF674C21843A5B30065E81F /* LBBOnSellingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBOnSellingViewController.m; sourceTree = "<group>"; };
+		2CF674C41843A5E70065E81F /* LBBChattingInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBChattingInfoViewController.h; sourceTree = "<group>"; };
+		2CF674C51843A5E70065E81F /* LBBChattingInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBChattingInfoViewController.m; sourceTree = "<group>"; };
+		2CF674C71843A6240065E81F /* LBBAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBAboutMeViewController.h; sourceTree = "<group>"; };
+		2CF674C81843A6240065E81F /* LBBAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBAboutMeViewController.m; sourceTree = "<group>"; };
+		2CF674CA1843AD020065E81F /* LBBMyDetailInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBMyDetailInfoViewController.h; sourceTree = "<group>"; };
+		2CF674CB1843AD020065E81F /* LBBMyDetailInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBMyDetailInfoViewController.m; sourceTree = "<group>"; };
+		2CF674CD1843AD240065E81F /* LBBLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBLogInViewController.h; sourceTree = "<group>"; };
+		2CF674CE1843AD240065E81F /* LBBLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBLogInViewController.m; sourceTree = "<group>"; };
+		2CF674D01843AD350065E81F /* LBBRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBRegisterViewController.h; sourceTree = "<group>"; };
+		2CF674D11843AD350065E81F /* LBBRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBRegisterViewController.m; sourceTree = "<group>"; };
+		2CF674D41843ADDD0065E81F /* LBBBookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBBookListViewController.h; sourceTree = "<group>"; };
+		2CF674D51843ADDD0065E81F /* LBBBookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBBookListViewController.m; sourceTree = "<group>"; };
+		2CF674D71843AF7B0065E81F /* LBBBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBBookDetailViewController.h; sourceTree = "<group>"; };
+		2CF674D81843AF7B0065E81F /* LBBBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBBookDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF674821843A3C30065E81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF6748B1843A3C30065E81F /* CoreGraphics.framework in Frameworks */,
+				2CF6748F1843A3C30065E81F /* CoreData.framework in Frameworks */,
+				2CF6748D1843A3C30065E81F /* UIKit.framework in Frameworks */,
+				2CF674891843A3C30065E81F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF674A21843A3C40065E81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF674A71843A3C40065E81F /* XCTest.framework in Frameworks */,
+				2CF674AA1843A3C40065E81F /* CoreData.framework in Frameworks */,
+				2CF674A91843A3C40065E81F /* UIKit.framework in Frameworks */,
+				2CF674A81843A3C40065E81F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF6747C1843A3C30065E81F = {
+			isa = PBXGroup;
+			children = (
+				2CF674901843A3C30065E81F /* LetsBuyBooks */,
+				2CF674AD1843A3C40065E81F /* LetsBuyBooksTests */,
+				2CF674871843A3C30065E81F /* Frameworks */,
+				2CF674861843A3C30065E81F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CF674861843A3C30065E81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CF674851843A3C30065E81F /* LetsBuyBooks.app */,
+				2CF674A51843A3C40065E81F /* LetsBuyBooksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CF674871843A3C30065E81F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF674881843A3C30065E81F /* Foundation.framework */,
+				2CF6748A1843A3C30065E81F /* CoreGraphics.framework */,
+				2CF6748C1843A3C30065E81F /* UIKit.framework */,
+				2CF6748E1843A3C30065E81F /* CoreData.framework */,
+				2CF674A61843A3C40065E81F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF674901843A3C30065E81F /* LetsBuyBooks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF674991843A3C30065E81F /* LBBAppDelegate.h */,
+				2CF6749A1843A3C30065E81F /* LBBAppDelegate.m */,
+				2CF6749F1843A3C40065E81F /* Images.xcassets */,
+				2CF6749C1843A3C30065E81F /* LetsBuyBooks.xcdatamodeld */,
+				2CF674DA1843AF840065E81F /* 在售 */,
+				2CF674C41843A5E70065E81F /* LBBChattingInfoViewController.h */,
+				2CF674C51843A5E70065E81F /* LBBChattingInfoViewController.m */,
+				2CF674D31843AD400065E81F /* 我 */,
+				2CF674911843A3C30065E81F /* Supporting Files */,
+			);
+			path = LetsBuyBooks;
+			sourceTree = "<group>";
+		};
+		2CF674911843A3C30065E81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CF674921843A3C30065E81F /* LetsBuyBooks-Info.plist */,
+				2CF674931843A3C30065E81F /* InfoPlist.strings */,
+				2CF674961843A3C30065E81F /* main.m */,
+				2CF674981843A3C30065E81F /* LetsBuyBooks-Prefix.pch */,
+				2CF674BD1843A4730065E81F /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CF674AD1843A3C40065E81F /* LetsBuyBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF674B31843A3C40065E81F /* LetsBuyBooksTests.m */,
+				2CF674AE1843A3C40065E81F /* Supporting Files */,
+			);
+			path = LetsBuyBooksTests;
+			sourceTree = "<group>";
+		};
+		2CF674AE1843A3C40065E81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CF674AF1843A3C40065E81F /* LetsBuyBooksTests-Info.plist */,
+				2CF674B01843A3C40065E81F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CF674D31843AD400065E81F /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				2CF674C71843A6240065E81F /* LBBAboutMeViewController.h */,
+				2CF674C81843A6240065E81F /* LBBAboutMeViewController.m */,
+				2CF674CA1843AD020065E81F /* LBBMyDetailInfoViewController.h */,
+				2CF674CB1843AD020065E81F /* LBBMyDetailInfoViewController.m */,
+				2CF674CD1843AD240065E81F /* LBBLogInViewController.h */,
+				2CF674CE1843AD240065E81F /* LBBLogInViewController.m */,
+				2CF674D01843AD350065E81F /* LBBRegisterViewController.h */,
+				2CF674D11843AD350065E81F /* LBBRegisterViewController.m */,
+				2CF674D41843ADDD0065E81F /* LBBBookListViewController.h */,
+				2CF674D51843ADDD0065E81F /* LBBBookListViewController.m */,
+			);
+			name = "我";
+			sourceTree = "<group>";
+		};
+		2CF674DA1843AF840065E81F /* 在售 */ = {
+			isa = PBXGroup;
+			children = (
+				2CF674C11843A5B30065E81F /* LBBOnSellingViewController.h */,
+				2CF674C21843A5B30065E81F /* LBBOnSellingViewController.m */,
+				2CF674D71843AF7B0065E81F /* LBBBookDetailViewController.h */,
+				2CF674D81843AF7B0065E81F /* LBBBookDetailViewController.m */,
+			);
+			name = "在售";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF674841843A3C30065E81F /* LetsBuyBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF674B71843A3C40065E81F /* Build configuration list for PBXNativeTarget "LetsBuyBooks" */;
+			buildPhases = (
+				2CF674811843A3C30065E81F /* Sources */,
+				2CF674821843A3C30065E81F /* Frameworks */,
+				2CF674831843A3C30065E81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsBuyBooks;
+			productName = LetsBuyBooks;
+			productReference = 2CF674851843A3C30065E81F /* LetsBuyBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CF674A41843A3C40065E81F /* LetsBuyBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF674BA1843A3C40065E81F /* Build configuration list for PBXNativeTarget "LetsBuyBooksTests" */;
+			buildPhases = (
+				2CF674A11843A3C40065E81F /* Sources */,
+				2CF674A21843A3C40065E81F /* Frameworks */,
+				2CF674A31843A3C40065E81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF674AC1843A3C40065E81F /* PBXTargetDependency */,
+			);
+			name = LetsBuyBooksTests;
+			productName = LetsBuyBooksTests;
+			productReference = 2CF674A51843A3C40065E81F /* LetsBuyBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CF6747D1843A3C30065E81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LBB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Johnson;
+				TargetAttributes = {
+					2CF674A41843A3C40065E81F = {
+						TestTargetID = 2CF674841843A3C30065E81F;
+					};
+				};
+			};
+			buildConfigurationList = 2CF674801843A3C30065E81F /* Build configuration list for PBXProject "LetsBuyBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CF6747C1843A3C30065E81F;
+			productRefGroup = 2CF674861843A3C30065E81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF674841843A3C30065E81F /* LetsBuyBooks */,
+				2CF674A41843A3C40065E81F /* LetsBuyBooksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CF674831843A3C30065E81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF674BE1843A4730065E81F /* MainStoryboard_iPhone.storyboard in Resources */,
+				2CF674951843A3C30065E81F /* InfoPlist.strings in Resources */,
+				2CF674A01843A3C40065E81F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF674A31843A3C40065E81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF674B21843A3C40065E81F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF674811843A3C30065E81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF674C61843A5E70065E81F /* LBBChattingInfoViewController.m in Sources */,
+				2CF674971843A3C30065E81F /* main.m in Sources */,
+				2CF674D91843AF7B0065E81F /* LBBBookDetailViewController.m in Sources */,
+				2CF674C31843A5B40065E81F /* LBBOnSellingViewController.m in Sources */,
+				2CF674CF1843AD240065E81F /* LBBLogInViewController.m in Sources */,
+				2CF674C91843A6240065E81F /* LBBAboutMeViewController.m in Sources */,
+				2CF674D21843AD350065E81F /* LBBRegisterViewController.m in Sources */,
+				2CF6749B1843A3C30065E81F /* LBBAppDelegate.m in Sources */,
+				2CF674CC1843AD020065E81F /* LBBMyDetailInfoViewController.m in Sources */,
+				2CF674D61843ADDD0065E81F /* LBBBookListViewController.m in Sources */,
+				2CF6749E1843A3C30065E81F /* LetsBuyBooks.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF674A11843A3C40065E81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF674B41843A3C40065E81F /* LetsBuyBooksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CF674AC1843A3C40065E81F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF674841843A3C30065E81F /* LetsBuyBooks */;
+			targetProxy = 2CF674AB1843A3C40065E81F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CF674931843A3C30065E81F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF674941843A3C30065E81F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CF674B01843A3C40065E81F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF674B11843A3C40065E81F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CF674B51843A3C40065E81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CF674B61843A3C40065E81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CF674B81843A3C40065E81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetsBuyBooks/LetsBuyBooks-Prefix.pch";
+				INFOPLIST_FILE = "LetsBuyBooks/LetsBuyBooks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CF674B91843A3C40065E81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetsBuyBooks/LetsBuyBooks-Prefix.pch";
+				INFOPLIST_FILE = "LetsBuyBooks/LetsBuyBooks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2CF674BB1843A3C40065E81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LetsBuyBooks.app/LetsBuyBooks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetsBuyBooks/LetsBuyBooks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LetsBuyBooksTests/LetsBuyBooksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2CF674BC1843A3C40065E81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LetsBuyBooks.app/LetsBuyBooks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetsBuyBooks/LetsBuyBooks-Prefix.pch";
+				INFOPLIST_FILE = "LetsBuyBooksTests/LetsBuyBooksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF674801843A3C30065E81F /* Build configuration list for PBXProject "LetsBuyBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF674B51843A3C40065E81F /* Debug */,
+				2CF674B61843A3C40065E81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF674B71843A3C40065E81F /* Build configuration list for PBXNativeTarget "LetsBuyBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF674B81843A3C40065E81F /* Debug */,
+				2CF674B91843A3C40065E81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CF674BA1843A3C40065E81F /* Build configuration list for PBXNativeTarget "LetsBuyBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF674BB1843A3C40065E81F /* Debug */,
+				2CF674BC1843A3C40065E81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CF6749C1843A3C30065E81F /* LetsBuyBooks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CF6749D1843A3C30065E81F /* LetsBuyBooks.xcdatamodel */,
+			);
+			currentVersion = 2CF6749D1843A3C30065E81F /* LetsBuyBooks.xcdatamodel */;
+			path = LetsBuyBooks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CF6747D1843A3C30065E81F /* Project object */;
+}
